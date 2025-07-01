@@ -1,4 +1,5 @@
-**Ứng Dụng Bảo Mật Tin Nhắn Văn Bản Với TripleDES & RSA**
+###**Ứng Dụng Bảo Mật Tin Nhắn Văn Bản Với TripleDES & RSA**
+
 _Đề tài tập trung vào việc phát triển một hệ thống nhắn tin P2P bảo mật, đảm bảo tính bí mật, toàn vẹn và xác thực thông tin thông qua các thuật toán mã hóa đối xứng và bất đối xứng._
 
 
