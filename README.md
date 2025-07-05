@@ -22,6 +22,8 @@ _Đề tài tập trung vào việc phát triển một hệ thống nhắn tin 
 │ ├── server.py # Mã nguồn server chính để trung chuyển dữ liệu và quản lý khóa
 ├── 📂 client # Client side, nơi diễn ra toàn bộ quá trình mã hóa/giải mã
 │ ├── client.py # Mã nguồn ứng dụng chat client
+├── 📂 gui_client # Giao diện Client, nơi diễn ra giao diện của ứng dụng nhắn tin
+│ ├── gui_client.py # Mã nguồn ứng dụng chat gui_client
 ├── run_server.sh # Script chạy server
 ├── run_client.sh # Script chạy client
 ├── requirements.txt # Danh sách thư viện Python cần cài đặt
@@ -79,25 +81,29 @@ pip install pycryptodome
 python "Nhom4_UngDungChatAnToan\server.py"
 ```
 
-3️⃣ **Khởi chạy client (Người gửi - NGUYEN):**
+3️⃣ **Khởi chạy gui_client (Người gửi - NGUYEN):**
 
 ```bash
-python "Nhom4_UngDungChatAnToan\client.py" NGUYEN
+python "Nhom4_UngDungChatAnToan\gui_client.py" 
 ```
 
-4️⃣ **Khởi chạy client (Người nhận - DU):**
+- Tạo IP là NGUYEN
+
+4️⃣ **Khởi chạy gui_client (Người nhận - DU):**
 
 ```bash
-python "Nhom4_UngDungChatAnToan\client.py" DU
+python "Nhom4_UngDungChatAnToan\gui_client.py" 
 ```
+
+- Tạo IP là DU
 
 5️⃣ **Gửi tin nhắn:**
 
-- Tại terminal của NGUYEN, chọn send và nhập DU làm người nhận.
+- Tại giao diện của NGUYEN, chọn send và nhập DU làm người nhận.
 
 6️⃣ **Nhận tin nhắn:**
 
-- Tại terminal của DU, chọn check để kiểm tra và giải mã tin nhắn.
+- Tại giao diện của DU, chọn check để kiểm tra và giải mã tin nhắn.
 
 📖 **Hướng dẫn sử dụng**
 1️⃣ **Đăng ký người dùng:**
